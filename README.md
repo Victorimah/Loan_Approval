@@ -12,14 +12,12 @@ This is a simple FastAPI-based API for predicting loan approval status. Given a 
 - [Response](#response)
 - [Running the Application](#running-the-application)
 - [Deployment](#deployment)
-- [License](#license)
 
 # Getting Started
 
 To get started with this API, you'll need to have Python and FastAPI installed on your system. You can install FastAPI using pip:
-
-```bash
 pip install fastapi
+
 Additionally, ensure you have the trained machine learning model saved in a file (e.g., naive_bayes_model.pkl) in the same directory as the API script.
 
 

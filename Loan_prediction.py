@@ -42,6 +42,6 @@ async def predict_loan_approval(data: LoanData):
     
     return {"Loan_Approval_Status": approval_status}
 
-if __name__ == "__main__":
+if __name__ == "__Loan_prediction__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)

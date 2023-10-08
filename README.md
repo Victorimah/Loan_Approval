@@ -56,7 +56,7 @@ Credit_History (Credit history status, 0 or 1)
 ApplicantIncome (Applicant's income)
 
 
-# Response
+# Response 
 The API response will be in JSON format and includes the following fields:
 Loan_Approval_Status: Either "Loan Approved" or "Loan Not Approved"
 Gender: The gender of the applicant (Male or Female)

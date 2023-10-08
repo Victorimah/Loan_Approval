@@ -21,15 +21,18 @@ To get started with this API, you'll need to have Python and FastAPI installed o
 ```bash
 pip install fastapi
 Additionally, ensure you have the trained machine learning model saved in a file (e.g., naive_bayes_model.pkl) in the same directory as the API script.
-**
-# Usage**
+
+
+# Usage
 This API allows you to send a POST request with input data and receive a response containing the loan approval status.
 
-**# API Endpoints**
+
+# API Endpoints
 GET /: A simple welcome message to confirm that the API is running.
 POST /predict_loan_approval/: Predicts the loan approval status based on input data.
 
-**# Input Data Schema**
+
+# Input Data Schema
 The input data should be in JSON format and conform to the following schema:
 
 json
@@ -51,15 +54,16 @@ LoanAmount (Loan amount requested)
 Loan_Amount_Term (Loan amount term in months)
 Credit_History (Credit history status, 0 or 1)
 ApplicantIncome (Applicant's income)
-**
 
-# Response**
+
+# Response
 The API response will be in JSON format and includes the following fields:
 Loan_Approval_Status: Either "Loan Approved" or "Loan Not Approved"
 Gender: The gender of the applicant (Male or Female)
 Self_Employed: Whether the applicant is self-employed (Yes or No)
-**
-# Running the Application**
+
+
+# Running the Application
 To run the application locally, use the following command:
 
 uvicorn main:app --reload

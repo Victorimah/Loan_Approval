@@ -14,7 +14,7 @@ This is a simple FastAPI-based API for predicting loan approval status. Given a 
 - [Deployment](#deployment)
 - [License](#license)
 
-## Getting Started
+# Getting Started
 
 To get started with this API, you'll need to have Python and FastAPI installed on your system. You can install FastAPI using pip:
 
